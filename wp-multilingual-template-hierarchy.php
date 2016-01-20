@@ -3,7 +3,7 @@
 Plugin Name: Multilingual Template Hierarchy
 Plugin URI:  https://github.com/resulto-admin/wordpress-multilingual-template-hierarchy
 Description: Enables theme developers using WPML to create type-slug.php templates in the default language. For example, if you create page-my-english-slug.php template, it will be used for the same page in other languages.
-Version:     1.0.0
+Version:     1.0.1
 Author:      Resulto Developpement Web Inc.
 Author URI:  http://www.resulto.ca
 License:     GPL3

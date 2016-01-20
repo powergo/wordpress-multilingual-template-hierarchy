@@ -2,7 +2,7 @@
 Contributors: bartdag-resulto
 Tags: multilingual
 Requires at least: 4
-Tested up to: 4.3.1
+Tested up to: 4.4.1
 Stable tag: trunk
 License: GPL v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -22,6 +22,11 @@ Version 1.0.0 supports translated page, category and tag slugs.
 
 
 == Changelog ==
+= 1.0.1 =
+
+* release date: January 20th 2016
+* global $post is no longer overriden (does not play well with other plugins).
+
 = 1.0.0 =
 
 * release date: October 1st 2015
