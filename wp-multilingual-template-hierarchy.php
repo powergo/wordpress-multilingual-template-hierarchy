@@ -33,13 +33,13 @@ function multi_lingual_page_template($template) {
         return $template;
     }
 
-    $post = get_post($id_in_default_lang);
+    $temp_post = get_post($id_in_default_lang);
 
-    if (!$post) {
+    if (!$temp_post) {
         return $template;
     }
 
-    $template_name = 'page-' . $post->post_name . '.php';
+    $template_name = 'page-' . $temp_post->post_name . '.php';
 
     $template_path = locate_template($template_name);
 
