@@ -65,7 +65,7 @@ function multi_lingual_category_template($template) {
     }
 
     $category_id = get_query_var('cat');
-    $id_in_default_lang = apply_filters('wpml_object_id', $category, 'category', FALSE, $default_lang);
+    $id_in_default_lang = apply_filters('wpml_object_id', $category_id, 'category', FALSE, $default_lang);
 
     if (!$id_in_default_lang) {
         return $template;
